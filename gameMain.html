@@ -1,0 +1,61 @@
+<!---
+
+Please test using Google Chrome or Firefox and use the following scripts: gameCodeMain.js, gameCSS.css, and this gameMain.html.
+Files would need to be in same directory.
+
+Linked two stylesheets one gameCSS.css and W3-Stylesheet.
+
+-->
+<html>
+	<head>
+		<script
+  			src="https://code.jquery.com/jquery-3.2.0.js"
+  			integrity="sha256-wPFJNIFlVY49B+CuAIrDr932XSb6Jk3J1M22M3E2ylQ="
+  			crossorigin="anonymous">
+  		</script>
+
+  		<script src="gameCodeMain.js"></script>
+  		<link rel="stylesheet" type="text/css" href="gameCSS.css">
+  		<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+	</head>
+	<body>
+		<div id="gameName">
+			<h1 id="name">The Wasteland</h1>
+		</div>
+
+		<div id="outerShell"> 
+			<p id="HUD"></p>
+		</div>
+
+		<div id="gameMap"></div>
+
+
+		<div id="userContent">
+
+			<div id="topSection">
+				<button class="w3-button w3-circle w3-green" id="up">^</button>
+			</div>
+
+			<div id="midSection">
+				<button class="w3-button w3-circle w3-green" id="left"><</button>
+				<button class="w3-button w3-circle w3-green" id="right">></button>
+			</div>
+
+			<div id="bottomSection">
+				<button class="w3-button w3-circle w3-green" id="down">v</button>
+			</div>
+
+			<p id="question"></p>
+			<button class="w3-button w3-rectangle w3-green" id="userChoice" disabled>Attack!</button>
+		</div>
+
+		<div id="trackUser">
+			<textarea id="summary" rows ="10" cols="50"> </textarea>
+		</div>
+
+		<center><button class="w3-button w3-rectangle w3-green" id="playAgain" disabled>Play Again</button>
+		<button class="w3-button w3-rectangle w3-green" id="quit" disabled>Quit</button>
+		</center>
+
+	</body>
+</html>

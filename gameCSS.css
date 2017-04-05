@@ -1,0 +1,41 @@
+#gameName{
+	text-align: center;
+}
+#name{
+	font-family: "Times New Roman", Times, serif;
+}
+#outerShell{
+	text-align: center;
+	max-height: 50px;
+	padding-bottom: 10px;
+}
+#HUD{
+	display:inline;
+	border: 3px solid green;
+}
+#topSection{
+	padding-top: 25px;
+}
+#midSection{
+	word-spacing: 25px;
+}
+#bottomSection{
+	padding-bottom: 10px;
+}
+body{
+	background-color: black;
+	color: white;
+}
+#gameMap{
+	text-align: center;
+}
+#trackUser{
+	text-align: center;
+}
+#summary{
+	background-color: gray;
+}
+#userContent{
+	text-align: center;
+	padding-bottom: 10px;
+}
